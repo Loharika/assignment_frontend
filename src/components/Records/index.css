@@ -1,0 +1,129 @@
+
+.error-view-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 48px;
+    padding-bottom: 64px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .error-view-container {
+      margin-top: 0px;
+      margin-left: 30px;
+      width: 70%;
+      padding-bottom: 0;
+    }
+  }
+  .failure-heading-text {
+    color: #171f46;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.3;
+  }
+  failure-description {
+    text-align: center;
+    color: #64748b;
+    font-family: 'Roboto';
+    font-size: 14px;
+    width: 90%;
+    max-width: 288px;
+    line-height: 1.3;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .failure-description {
+      font-size: 18px;
+      width: 60%;
+      max-width: 466px;
+    }
+  }
+  .all-records-container{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 15px;
+  }
+  .all-records-heading{
+    text-align: center;
+  }
+  .loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .loader-container {
+      width: 70%;
+    }
+  }
+  .add-file-btn-container{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-end;
+    margin-left:15px;
+  }
+  .add-file-btn{
+   
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: auto;
+    padding: 8px 16px;
+    color: #ffffff;
+    background-color:#0b69ff;;
+    border: none;
+    border-radius: 4px;
+    margin-right: auto;
+    cursor: pointer;
+    outline: none;
+  }
+  .all-records-container-view{
+    padding: 0px 55px;
+  }
+
+  .pagination-ul-container{
+    
+    width:100%;
+    display: flex;
+    justify-content: center;
+  }
+  .pagination-li{
+    margin:10px;
+    padding:10px;
+    list-style: none;
+    border:3px solid grey;
+    font-size: 15px;
+    border-radius:5px;
+  }
+
+  .pagination-active-li{
+    margin:10px;
+    padding:10px;
+    border:3px solid blue;
+    list-style: none;
+    font-size: 15px;
+    border-radius:5px;
+  }
+  .no-records-found-container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .no-records-found-heading{
+    text-align: center;
+  }
+  .no-records-img{
+    width:125px;
+    height:125px;
+  }
+  .records-header{
+    display: flex;
+    flex-direction: column;
+  }
